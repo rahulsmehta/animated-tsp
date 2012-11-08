@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=w\ h
+comment0.target=Canvas(int,\ int)
+comment1.params=weight
+comment1.target=void\ setLineWeight(int)
+comment1.text=\nSet\ the\ thickness\ of\ the\ line\ in\ pixels.\ The\ line\ weight\ does\ not\ need\ to\ be\ set\neach\ time\ a\ line\ is\ drawn.\ \ Once\ it's\ set\ all\ subsequent\ lines\ will\ be\ draw\ with\ \nthis\ thickness\ until\ a\ different\ lineWeight\ has\ been\ set.\n\n
+comment2.params=size
+comment2.target=void\ setPointSize(double)
+comment2.text=\nSet\ the\ size\ of\ the\ points\ that\ will\ be\ drawn\ on\ the\ Canvas,\ where\ size\=diameter.\nOnce\ pointSize\ has\ been\ set,\ all\ subsequent\ points\ will\ be\ drawn\ with\ this\ size\nuntil\ setPointSize\ is\ called\ with\ a\ different\ size.\n\n
+comment3.params=p
+comment3.target=void\ drawPoint(Point2D)
+comment3.text=\nDraw\ a\ point\ on\ the\ canvas\ at\ the\ given\ Point.\ Default\ is\ for\ a\ 2px\ndiameter\ point\ to\ be\ drawn\ centered\ on\ the\ x,y\ in\ the\ given\ point.\n\n
+comment4.params=x\ y
+comment4.target=void\ drawPoint(double,\ double)
+comment4.text=\nSame\ description\ as\ drawPoint(Point2D\ p),\ but\ will\ use\ given\ x,\ y.\nNOTE\:\ method\ just\ constructs\ a\ \n\n
+comment5.params=p\ p2
+comment5.target=void\ drawLine(Point2D,\ Point2D)
+comment5.text=\nDraw\ a\ line\ on\ the\ canvas\ between\ the\ two\ given\ points.\ Default\ line\ thickness\nis\ 1px.\ \ You\ can\ change\ the\ thickness\ by\ calling\ lineWeight(int)\ before\ drawing\nthe\ line.\n\n
+comment6.params=x0\ y0\ x1\ y1
+comment6.target=void\ drawLine(double,\ double,\ double,\ double)
+comment6.text=\nSame\ description\ as\ drawLine(Point2D,\ Point2D)\ but\ using\ given\ point\ components.\n\n
+comment7.target=int\ getWidth()
+comment8.target=int\ getHeight()
+comment9.params=c
+comment9.target=void\ setColor(Color)
+comment9.text=\nSet\ the\ color\ of\ the\ "paintbrush".\ \ Once\ the\ color\ has\ been\ set,\ all\ subsquent\npoints\ and\ lines\ will\ be\ draw\ in\ this\ color\ until\ setColor\ is\ called\ with\ a\ \ndifferent\ color.\n\n
+numComments=10
