@@ -10,7 +10,7 @@ public class TerminalTest {
        
                 //Open file for reading
         Scanner S = null;
-        try{ S = new Scanner(new File("tsp5.txt")); }
+        try{ S = new Scanner(new File("../Data/tsp8.txt")); }
         catch(Exception e){ throw new RuntimeException(e); }
         
         int w = S.nextInt(); //first two lines are width/height maxes
