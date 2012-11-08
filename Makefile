@@ -1,5 +1,5 @@
 all:
-	javac -classpath ./squintV2.13.jar TSPAnimated/*.java
+	javac -classpath lib/squintV2.13.jar TSPAnimated/*.java
 
 clean:
 	rm TSPAnimated/*.class
